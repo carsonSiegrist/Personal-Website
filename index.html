@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio Website</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        line-height: 1.6;
+      }
+      header {
+        background: #333;
+        color: #fff;
+        padding: 1rem 0;
+        text-align: center;
+      }
+      nav {
+        text-align: center;
+        margin: 1rem 0;
+      }
+      nav a {
+        margin: 0 1rem;
+        text-decoration: none;
+        color: #333;
+      }
+      nav a:hover {
+        color: #007bff;
+      }
+      .container {
+        width: 80%;
+        margin: auto;
+        overflow: hidden;
+      }
+      section {
+        margin: 2rem 0;
+      }
+      footer {
+        background: #333;
+        color: #fff;
+        text-align: center;
+        padding: 1rem 0;
+        margin-top: 2rem;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Carson Siegrist</h1>
+    </header>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#portfolio">Portfolio</a>
+      <a href="#resume">Resume</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <div class="container">
+      <section id="home">
+        <h2>About Me</h2>
+        <img
+          src="me-awesome.jpg"
+          alt="Your Photo"
+          style="width: 200px; height: auto; border-radius: 50%"
+        />
+        <p>
+          Hi, I'm Carson Siegrist, I'm studying Computer Science at NMSU. I am expected to graduate with my B.S. in Computer Science in May of 2025, and with my Master's in Computer Science a year later, In May of '26. 
+          I'm currently working in full stack mobile app development.<br> 
+          A few of my previous projecs include:
+          <ul>
+            <li>A wiki webserver that allows users to upload, browse and view various wiki pages.</li>
+            <li>A webapp version of the board game Cathedral.</li>
+            <li>A POS (Point of Sale) System app that allows users to place and edit orders as in a restaurant.</li>
+          </ul>
+        </p>
+      </section>
+
+      <section id="portfolio">
+        <h2>Portfolio</h2>
+        <h3>Featured Project: Point of Sale System App</h3>
+        <p><strong>Motivation:</strong> We (Rafael Ramirez & I) decided we wanted to improve POS systems in order to increase order accuracy and decrease ordering time for restaurant employees.</p>
+        <p><strong>Online Study:</strong> We started by auditing 10 populate POS applications, along with their reviews. We found that many felt dated or clunky, and lacked customization options. Furthermore, we noticed they all seemed to follow the same general layout: all the menu items have their own button on the screen, and sub-items (i.e. burger meal or cheeseburger meal) had their own sub-screens. This led to a somewhat complicated page hierarchy, which our group believed was problem, and we wanted to address it. </p>
+        <p><strong>Prototyping Phase:</strong> We created a few prototypes: staring with low-fidelity prototypes, we created two versions of what the app might look like in MS Paint, one utilizing radial menus for some items, and another following the same gerneral layout with a button for each item. Following user study 1, we decided to proceed with the radial menu verion. After another user study, we found that the standard layout actually performed better.</p>
+        <p><strong>User Studies Results:</strong> User study 1 showed us that users enjoyed the experience of the radial menus in place of standard buttons, and that it made the system more intuitive. However, in our second user study, we found that while the radial menus felt better to the users, they actually hindered the speed of the user, with a negligible change in the accuracy of their orders. With this in mind, we decideded to proceed to our final prototype without the radial menus in place. </p>
+        <p><strong>Technologies:</strong> JavaScript, React Native, Android Studio</p>
+        <p><strong>Demo:</strong> <a href="https://drive.google.com/file/d/1t84GcdIGumsYDvPQpJRYmsKvc9GvjiIB/view?usp=drive_link" target="_blank">Watch here</a></p><br><br>
+
+        <h3>Other Projects</h3>
+        <ul>
+          <li><a href="https://github.com/carsonSiegrist/project-imposter" target="_blank">Project Imposter</a> - Wiki Webserver</li>
+          <li><a href="https://github.com/carsonSiegrist/cathedral-site" target="_blank">Cathedral Site</a> - Python Game Webapp</li>
+          <li><a href="https://github.com/carsonSiegrist/smashup-site" target="_blank">Smash Up Site</a> - Website to help you draft a deck in the card game <i>Smash Up</i></li>
+        </ul>
+      </section>
+
+      <section id="resume">
+        <h2>Resume</h2>
+        <p>
+          <a href="https://drive.google.com/file/d/1x6i8-VhWIrD3V9iWVBYQgzBO49eJsDSP/view?usp=drive_link" target="_blank"
+            >Click here to view my resume (PDF)</a
+          >
+        </p>
+      </section>
+
+      <section id="contact">
+        <h2>Contact Me</h2>
+        <p>
+          Email:
+          <a href="mailto:carsonsiegrist@gmail.com">carsonsiegrist@gmail.com</a>
+        </p>
+        <p>
+          LinkedIn:
+          <a href="https://www.linkedin.com/in/carson-siegrist/" target="_blank"
+            >linkedin.com/in/carson-siegrist/</a
+          >
+        </p>
+      </section>
+    </div>
+    <footer>
+      <p>&copy; 2024 Carson Siegrist. All Rights Reserved.</p>
+    </footer>
+  </body>
+</html>
